@@ -1,0 +1,76 @@
+.locations {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5rem;
+    gap: 1rem;
+}
+.locations-image {
+    background: url("../../../src/images/kitchen.jpg") no-repeat center center /
+        cover;
+    border-radius: 1.5rem;
+    min-height: 15rem;
+}
+
+.locations-text {
+    /* height: 100%; */
+    display: flex;
+    align-items: center;
+}
+
+.locations-text .text-content {
+    width: 100%;
+}
+
+.locations-head-sm {
+    font-size: 3rem;
+    color: #000;
+    margin: 1rem 0;
+    line-height: 0.8;
+    font-family: Gabriola;
+    flex-basis: 1;
+}
+
+.locations-head {
+    font-size: 4.3rem;
+    color: #000;
+    margin: 1rem 0;
+    line-height: 0.8;
+    font-family: Gabriola;
+    flex-basis: 1;
+    display: none;
+}
+
+.locations-container {
+    display: flex;
+    margin: 2rem 0 4rem;
+}
+
+.locations-container p {
+    padding: 0 1rem;
+}
+
+.locations-container p:not(:last-child) {
+    border-right: 1px solid gray;
+    /* max-width: 10rem; */
+}
+
+@media only screen and (min-width: 768px) {
+    .locations-head-sm {
+        display: none;
+    }
+    .locations-head {
+        display: block;
+    }
+
+    .locations {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 7rem 0;
+        height: 90vh;
+        gap: 5rem;
+        height: 90vh;
+    }
+
+    .locations-image {
+    }
+}

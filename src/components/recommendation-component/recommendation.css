@@ -1,0 +1,98 @@
+.recommendation {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 3rem;
+    gap: 2rem;
+}
+.recommendation-text {
+    position: relative;
+    height: 100%;
+}
+.recommendation-head {
+    font-size: 3rem;
+    color: #000;
+    margin: 1rem 0;
+    line-height: 0.8;
+    font-family: Gabriola;
+    flex-basis: 1;
+}
+
+.recommendation-text .comment {
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 1rem;
+    margin-top: 3rem;
+    position: relative;
+}
+
+.comment .customer-image {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translate(-50%, -50%);
+    border: 2px solid #858585;
+}
+.customer-image img {
+    width: 100%;
+}
+
+.comment p {
+    margin-top: 1rem;
+    color: #858585;
+}
+
+.recommendation-image {
+    background: url("../../../src/images/rice-with-shrimp.jpg") no-repeat center
+        center / cover;
+    border-radius: 1.5rem;
+    display: none;
+}
+
+@media only screen and (min-width: 768px) {
+    .recommendation {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 7rem 0;
+        height: 90vh;
+        gap: 2rem;
+    }
+
+    .recommendation-text {
+        padding: 1.5rem 2rem 1.5rem 0;
+        position: relative;
+        height: 100%;
+    }
+
+    .recommendation-head {
+        font-size: 4.3rem;
+        margin: 1rem 0;
+    }
+
+    .recommendation-text .comment {
+        padding: 4rem 2rem;
+    }
+
+    .comment .customer-image {
+        width: 6rem;
+        height: 6rem;
+        border-radius: 50%;
+        overflow: hidden;
+        position: absolute;
+        left: 2rem;
+        top: 0;
+        transform: translateY(-50%);
+    }
+
+    .comment p {
+        margin-top: 0;
+        color: #858585;
+    }
+
+    .recommendation-image {
+        display: block;
+    }
+}

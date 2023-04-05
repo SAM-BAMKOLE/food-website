@@ -1,0 +1,150 @@
+.header {
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 2rem 0;
+    /* height: 70vh; */
+}
+
+.hero-text {
+    margin: 1rem 0;
+    position: relative;
+    /* height: 100%; */
+}
+
+.hero-text h1 {
+    font-size: 7.2rem;
+    color: #000;
+    margin-bottom: 0.6rem;
+    font-weight: 300;
+    line-height: 0.8;
+    font-family: Gabriola;
+    display: none;
+}
+
+.hero-text p {
+    color: #8a8a8a;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-size: large;
+    margin-bottom: 3rem;
+}
+
+.hero-image {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("../../../src/images/hero-image.jpg") no-repeat center center /
+            cover;
+    min-height: 13rem;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-image h1 {
+    font-size: 5rem;
+    font-weight: 500;
+    line-height: 0.8;
+    font-family: Gabriola;
+    display: block;
+    color: #fff;
+}
+
+/* avatar section */
+.avatars-section {
+    margin-top: 3rem;
+    height: 4rem;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.4rem;
+    border-radius: 2rem;
+    background-color: #fff;
+    box-shadow: 0.3px 6px 15px rgba(0, 0, 0, 0.03),
+        -6px -0.3px 15px rgba(0, 0, 0, 0.03);
+}
+
+.avatars-section .avatar-collection {
+    display: flex;
+    gap: 0.7rem;
+}
+
+.avatars-section .avatar-collection .avatar {
+    border-radius: 50%;
+    /* padding: 0.1rem 0.2rem; */
+    width: 3rem;
+    height: 3rem;
+    display: grid;
+    place-items: center;
+    background-color: #ececec;
+}
+
+.avatars-section .avatar-collection .avatar img {
+    height: 2.6rem;
+}
+
+.avatars-section .v-line {
+    width: 3px;
+    height: 100%;
+    border-left: 2px solid #8a8a8a;
+}
+
+.avatars-section .happy-customers {
+    text-align: center;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    margin-top: 0.3rem;
+}
+
+.avatars-section .happy-customers .customer {
+    font-size: 0.8rem;
+    font-weight: 700;
+    line-height: 1;
+    display: block;
+    color: #737373;
+}
+
+.avatars-section .happy-customers .amount {
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1;
+    color: #000000;
+    margin-top: 0.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+    .header {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin: 2rem 0;
+        height: 90vh;
+    }
+
+    .hero-text {
+        padding: 1.5rem 7rem 1.5rem 0;
+        height: 100%;
+    }
+
+    .hero-text h1 {
+        display: block;
+    }
+
+    .hero-image {
+        background: url("../../../src/images/hero-image.jpg") no-repeat center
+            center / cover;
+        border-radius: 1.5rem;
+    }
+
+    .hero-image h1 {
+        display: none;
+    }
+
+    .avatars-section {
+        position: absolute;
+        bottom: 10%;
+        left: 0;
+    }
+
+    .avatars-section .avatar-collection {
+        display: flex;
+        gap: 0.3rem;
+    }
+}

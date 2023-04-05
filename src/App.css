@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Katibeh&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+head {
+    font-size: 10px;
+}
+
+body {
+    /* font-family: "Katibeh", cursive; */
+    /* font-family: "Gloock", serif; */
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Gloock", serif;
+}
+
+.container {
+    max-width: 1440px;
+    padding: 1rem 1rem;
+    background-color: #fff;
+}
+
+.order {
+    padding: 1rem 1.5rem;
+    border-radius: 0.6rem;
+    border: 1px solid #df2519;
+    color: #fff;
+    background-color: #df2519;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    transition: all 0.34s ease;
+}
+.order:hover {
+    color: #df2519;
+    background-color: transparent;
+}
+
+.heading {
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 3rem;
+    color: #000;
+    font-family: Gabriola;
+}
+
+@media only screen and (min-width: 768px) {
+    .container {
+        padding: 1rem 4rem;
+    }
+
+    .heading {
+        padding: 1.5rem;
+        margin-bottom: 1rem;
+        font-size: 4.3rem;
+    }
+}

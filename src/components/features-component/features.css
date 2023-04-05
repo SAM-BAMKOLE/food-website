@@ -1,0 +1,76 @@
+.features {
+    margin-bottom: 3rem;
+}
+.features-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.icon .circle {
+    width: 3rem;
+    height: 3rem;
+    background: #c4c4c4;
+    border-radius: 50%;
+}
+
+.icon .line {
+    height: 3rem;
+    width: 0.4rem;
+    background: #c4c4c4;
+    border-radius: 3px;
+}
+
+.features-list h3 {
+    font-size: 22px;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    margin: 1rem 0 0.3rem 0;
+    font-weight: 600;
+}
+
+.features-list p {
+    color: #a1a1a1;
+}
+
+.features-list .feature {
+    padding: 2rem 0;
+}
+
+.features-list .feature:not(:last-child) {
+    border-bottom: 1px solid #a1a1a1;
+}
+
+@media only screen and (min-width: 768px) {
+    .features-list {
+        display: flex;
+        flex-direction: row;
+        gap: 3rem;
+        padding: 0 3rem;
+    }
+
+    .icon .circle {
+        width: 4rem;
+        height: 4rem;
+    }
+
+    .icon .line {
+        height: 4rem;
+        width: 0.5rem;
+    }
+
+    .features-list h3 {
+        margin: 1rem 0;
+    }
+
+    .features-list .feature {
+        padding: 0;
+    }
+
+    .features-list .feature:not(:last-child) {
+        border-bottom: none;
+    }
+}

@@ -1,0 +1,13 @@
+.button {
+    padding: 1rem 12rem;
+    border-radius: 0.6rem;
+    border: 1px solid #df2519;
+    color: #fff;
+    background-color: #df2519;
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    transition: all 0.34s ease;
+}
+.button:hover {
+    color: #df2519;
+    background-color: transparent;
+}
