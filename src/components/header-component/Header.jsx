@@ -1,6 +1,6 @@
 import React from "react";
 import "./Header.css";
-import { Button } from "../button-component/button";
+import { Button } from "../button-component/Button";
 import avatar1 from "../../images/Avatar-1.png";
 import avatar2 from "../../images/Avatar-2.png";
 import avatar3 from "../../images/Avatar-3.png";
