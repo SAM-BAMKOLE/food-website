@@ -1,6 +1,6 @@
 import React from "react";
 import Foodlist from "../foodList-component/Foodlist";
-import Headings from "../headings-component/headings";
+import Headings from "../headings-component/Headings";
 import "./Order.css";
 
 const Order = () => {
