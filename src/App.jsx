@@ -3,7 +3,7 @@ import Navbar from "./components/navbar-component/Navbar";
 import Header from "./components/header-component/Header";
 import "./App.css";
 import Order from "./components/order-component/Order";
-import About from "./components/about-component/about";
+import About from "./components/about-component/About";
 import Features from "./components/features-component/Features";
 import Recommendation from "./components/recommendation-component/Recommendation";
 import Locations from "./components/locations-component/Locations";
