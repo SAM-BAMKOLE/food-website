@@ -40,12 +40,13 @@
 }
 
 .hero-image h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 500;
     line-height: 0.8;
     font-family: Gabriola;
     display: block;
     color: #fff;
+    padding: 15px;
 }
 
 /* avatar section */
