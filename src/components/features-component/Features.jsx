@@ -1,5 +1,5 @@
 import React from "react";
-import Headings from "../headings-component/headings";
+import Headings from "../headings-component/Headings";
 import "./features.css";
 import { features } from "../../data/Data";
 
