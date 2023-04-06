@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Gloock&family=Katibeh&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Gloock&family=Katibeh&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&display=swap");
 
 * {
     margin: 0;
@@ -22,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Gloock", serif;
+    font-family: "Cormorant Garamond", serif;
 }
 
 .container {
@@ -50,7 +51,7 @@ h6 {
     text-align: center;
     font-size: 3rem;
     color: #000;
-    font-family: Gabriola;
+    font-family: "Cormorant Garamond", serif;
 }
 
 @media only screen and (min-width: 768px) {

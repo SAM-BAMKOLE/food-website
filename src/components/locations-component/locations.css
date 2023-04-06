@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&display=swap");
+
 .locations {
     display: flex;
     flex-direction: column;
@@ -26,7 +28,7 @@
     color: #000;
     margin: 1rem 0;
     line-height: 0.8;
-    font-family: Gabriola;
+    font-family: "Cormorant Garamond", serif;
     flex-basis: 1;
 }
 
@@ -35,7 +37,7 @@
     color: #000;
     margin: 1rem 0;
     line-height: 0.8;
-    font-family: Gabriola;
+    font-family: "Cormorant Garamond", serif;
     flex-basis: 1;
     display: none;
 }

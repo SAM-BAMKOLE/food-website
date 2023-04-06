@@ -9,12 +9,14 @@
     border-radius: 1rem;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500&display=swap");
+
 .about-head {
     font-size: 3rem;
     color: #000;
     margin-bottom: 1rem;
     line-height: 0.8;
-    font-family: Gabriola;
+    font-family: "Cormorant Garamond", serif;
     flex-basis: 1;
 }
 
