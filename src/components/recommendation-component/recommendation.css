@@ -51,6 +51,7 @@
         center / cover;
     border-radius: 1.5rem;
     display: none;
+    max-height: 80rem;
 }
 
 @media only screen and (min-width: 768px) {
