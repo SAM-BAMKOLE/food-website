@@ -11,6 +11,7 @@
         cover;
     border-radius: 1.5rem;
     min-height: 15rem;
+    max-height: 80rem;
 }
 
 .locations-text {

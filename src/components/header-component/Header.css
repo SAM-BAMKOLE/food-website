@@ -35,6 +35,7 @@
         url("../../../src/images/hero-image.jpg") no-repeat center center /
             cover;
     min-height: 13rem;
+    max-height: 80rem;
     border-radius: 0.5rem;
     display: flex;
     align-items: center;

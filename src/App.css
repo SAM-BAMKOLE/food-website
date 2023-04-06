@@ -52,6 +52,7 @@ h6 {
     font-size: 3rem;
     color: #000;
     font-family: "Cormorant Garamond", serif;
+    line-height: 1.2;
 }
 
 @media only screen and (min-width: 768px) {
