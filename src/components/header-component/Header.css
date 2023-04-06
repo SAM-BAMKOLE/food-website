@@ -19,7 +19,8 @@
     margin-bottom: 0.6rem;
     font-weight: 300;
     line-height: 0.8;
-    font-family: Gabriola;
+    /* font-family: Gabriola; */
+    font-family: "Cormorant Garamond", serif;
     display: none;
 }
 
